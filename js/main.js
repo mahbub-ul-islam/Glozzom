@@ -33,3 +33,11 @@ let controller = (_url, _method, _data, _container="body", _clearContainer=true)
     })
 }
 
+// navbar active
+$( '#mainNav .navbar-nav a' ).on( 'click', function () {
+	$( '#mainNav .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+    $( this ).parent( 'li' ).addClass( 'active' );
+	$( '#mainNav .navbar-nav' ).find( 'a.active' ).removeClass( 'active' );
+	$( this ).parent( 'a' ).addClass( 'active' );
+});
+
