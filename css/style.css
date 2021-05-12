@@ -8,7 +8,31 @@
 }
 
 
+/* Navbar */
 
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+/* custom nav-link */
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b7bcbd !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-link .active {
+    color: #e8e8e8 !important;
+}
+.navbar .nav-item.active {
+    border-left: #444 3px solid !important;
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: #fff !important;
+}
 
 
 
