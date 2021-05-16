@@ -37,7 +37,15 @@ let controller = (_url, _method, _data, _container="body", _clearContainer=true)
 $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 	$( '#mainNav .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
     $( this ).parent( 'li' ).addClass( 'active' );
-	$( '#mainNav .navbar-nav' ).find( 'a.active' ).removeClass( 'active' );
-	$( this ).parent( 'a' ).addClass( 'active' );
+	// $( '#mainNav .navbar-nav' ).find( 'a.active' ).removeClass( 'active' );
+	// $( this ).parent( 'a' ).addClass( 'active' );
 });
+
+
+// $(document).ready(function() {
+//     $('.carousel').carousel({
+//       interval: 1200
+//     })
+//   });
+
 
