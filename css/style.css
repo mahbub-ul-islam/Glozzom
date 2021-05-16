@@ -1,6 +1,7 @@
 
 :root {
     --default-text-color: rgb(80, 196, 27);
+    --bs-blue: #0dfd41;
 }
 
 .primary {
@@ -19,20 +20,84 @@
     font-size: 14px;
     text-transform: uppercase;
     color: #b7bcbd !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    /* padding-left: 1rem !important;
+    padding-right: 1rem !important; */
 }
 
-.navbar .nav-link .active {
-    color: #e8e8e8 !important;
-}
+/* navbar item active */
 .navbar .nav-item.active {
-    border-left: #444 3px solid !important;
+    border-left: #888 3px solid !important;
+    margin-left: 1.5rem !important;
 }
+/* navbar a active text color */
+.navbar-nav > .active > a {
+    color: #e8e8e8 !important; 
+}
+
+/* .navbar .nav-link.active {
+    color: #e8e8e8 !important;
+} */
+/* navbar lik hover */
 .nav-link:hover {
     cursor: pointer;
     color: #fff !important;
 }
 
+.btn-outline-primary {
+    color: rgba(255, 255, 0, 0.719) !important;
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 0, 0.719) !important;
+}
+.btn-outline-primary:hover {
+    transition: 0.5s;
+    color: #000 !important;
+    background-color: rgba(255, 255, 0, 0.719) !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 
 
+
+
+
+
+
+
+/* carousel */
+.carousel-item {
+    height: 500px;
+}
+/* .carousel-image-1 {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+}
+.carousel-image-2 {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+} */
+
+/* .carousel-inner img {
+    height: 450px;
+    background-size: cover;
+} */
+
+
+/* carousel buttons */
+
+
+.carousel-item {
+    height: 500px;
+}
+/* .carousel-item {
+    transition: transform .2s ease-in-out;
+    -webkit-transition: transform .2s ease-in-out;
+    -moz-transition: transform .2s ease-in-out;
+    -ms-transition: transform .2s ease-in-out;
+    -o-transition: transform .2s ease-in-out;
+} */
