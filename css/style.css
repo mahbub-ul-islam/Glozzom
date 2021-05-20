@@ -45,8 +45,16 @@ html {
 .carousel-item h1 {
     font-family: Pattaya;
 }
-.carousel-item P {
+/* .carousel-item P {
     FONT-FAMILY: KoHo;
+} */
+p {
+    font-family: KoHo;
+    font-weight: 500;
+    font-size: 18px;
+}
+h3 {
+    font-family: Source Code Pro;
 }
 
 /*=====  End of font comment block  ======*/
@@ -182,8 +190,19 @@ html {
 
 
 /*=============================================
+=            home icon section block            =
+=============================================*/
+
+#home-icon-section span {
+    color: rgba(4, 138, 15, 0.336);
+}
+
+/*=====  End of home icon section block  ======*/
+
+
+
+/*=============================================
 =            Section comment block            =
 =============================================*/
 
 /*=====  End of Section comment block  ======*/
-
