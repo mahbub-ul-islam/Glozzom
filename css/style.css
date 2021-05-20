@@ -51,12 +51,16 @@ html {
 p {
     font-family: KoHo;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 19px;
 }
 h3 {
     font-family: Source Code Pro;
 }
-
+h2 {
+    font-family: Source Code Pro;
+    font-size: 46px;
+    font-weight: 600;
+}
 /*=====  End of font comment block  ======*/
 
 /*=============================================
@@ -204,5 +208,23 @@ h3 {
 /*=============================================
 =            Section comment block            =
 =============================================*/
+
+#home-heading-section {
+    position: relative;
+    height: 200px;
+    background: url(../img/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
 
 /*=====  End of Section comment block  ======*/
