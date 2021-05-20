@@ -1,13 +1,97 @@
 
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+/*=====  End of Section comment block  ======*/
+
+
+
+
+/*=============================================
+=            root comment block            =
+=============================================*/
+
+
 :root {
     --default-text-color: rgb(80, 196, 27);
-    --bs-blue: #0dfd41;
 }
 
-.primary {
+/* .primary {
     color: rgb(30, 27, 196) !important;
+} */
+
+html {
+    font-family: "KoHo", "Kanit", "Pattaya", "Source Code Pro", sans-serif;
+}
+#body {
+    margin-top: 60px;
 }
 
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            font comment block            =
+=============================================*/
+.navbar-brand {
+    font-family: Source Code Pro;
+    font-size: 24px;
+}
+#mainNav a {
+    font-family: Kanit;
+    font-size: 18px;
+}
+.carousel-item h1 {
+    font-family: Pattaya;
+}
+.carousel-item P {
+    FONT-FAMILY: KoHo;
+}
+
+/*=====  End of font comment block  ======*/
+
+/*=============================================
+=            button comment block            =
+=============================================*/
+
+/* button primary (blue to gold ) */
+.btn-outline-primary {
+    color: rgba(255, 255, 0, 0.719) !important;
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 0, 0.719) !important;
+}
+.btn-outline-primary:hover {
+    transition: 0.5s;
+    color: #000 !important;
+    background-color: rgba(255, 255, 0, 0.719) !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+/* button primary (yellow to green ) */
+.btn-outline-warning {
+    color: rgba(115, 255, 0, 0.555) !important;
+    background-color: transparent !important;
+    border: 2px solid rgba(115, 255, 0, 0.555) !important;
+}
+.btn-outline-warning:hover {
+    transition: 0.5s;
+    color: #fff !important;
+    background-color: rgba(115, 255, 0, 0.555) !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/*=====  End of button comment block  ======*/
+
+
+/*=============================================
+=            navbar comment block            =
+=============================================*/
 
 /* Navbar */
 
@@ -26,8 +110,13 @@
 
 /* navbar item active */
 .navbar .nav-item.active {
+    transition: 0.7s;
     border-left: #888 3px solid !important;
     margin-left: 1.5rem !important;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
 }
 /* navbar a active text color */
 .navbar-nav > .active > a {
@@ -43,26 +132,13 @@
     color: #fff !important;
 }
 
-.btn-outline-primary {
-    color: rgba(255, 255, 0, 0.719) !important;
-    background-color: transparent !important;
-    border: 2px solid rgba(255, 255, 0, 0.719) !important;
-}
-.btn-outline-primary:hover {
-    transition: 0.5s;
-    color: #000 !important;
-    background-color: rgba(255, 255, 0, 0.719) !important;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
+
+/*=====  End of navbar comment block  ======*/
 
 
-
-
-
-
+/*=============================================
+=            carousel comment block            =
+=============================================*/
 
 
 /* carousel */
@@ -91,9 +167,9 @@
 /* carousel buttons */
 
 
-.carousel-item {
+/* .carousel-item {
     height: 500px;
-}
+} */
 /* .carousel-item {
     transition: transform .2s ease-in-out;
     -webkit-transition: transform .2s ease-in-out;
@@ -101,3 +177,13 @@
     -ms-transition: transform .2s ease-in-out;
     -o-transition: transform .2s ease-in-out;
 } */
+
+/*=====  End of carousel comment block  ======*/
+
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+/*=====  End of Section comment block  ======*/
+
