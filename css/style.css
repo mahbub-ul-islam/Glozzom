@@ -228,3 +228,41 @@ h2 {
 }
 
 /*=====  End of Section comment block  ======*/
+
+/*=============================================
+=            home video Section block            =
+=============================================*/
+
+#home-video-section {
+    position: relative;
+    height: 250px;
+    background: url(../img/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+
+#home-video-section .row {
+    margin-right: 0 !important;
+}
+
+/*=====  End of Section comment block  ======*/
+
+
+
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+
+
+
+/*=====  End of Section comment block  ======*/
+
+
+
+
+
+
