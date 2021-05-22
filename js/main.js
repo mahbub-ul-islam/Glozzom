@@ -1,4 +1,13 @@
+//=============================================
+//=            Section comment block          =
+//=============================================
 
+//=====  End of Section comment block  ======
+
+
+//=============================================
+//=            router configure block          =
+//=============================================
 const router = {
     baseUrl: "http://127.0.0.1:5500/",
     backend: "",
@@ -32,7 +41,13 @@ let controller = (_url, _method, _data, _container="body", _clearContainer=true)
         }
     })
 }
+//=====  End of router configure block  ======
 
+
+
+//=============================================
+//=            navbar block          =
+//=============================================
 // navbar active
 $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 	$( '#mainNav .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
@@ -40,6 +55,17 @@ $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 	// $( '#mainNav .navbar-nav' ).find( 'a.active' ).removeClass( 'active' );
 	// $( this ).parent( 'a' ).addClass( 'active' );
 });
+//=====  End of navbar block  ======
+
+
+//=============================================
+//=            carousel block          =
+//=============================================
+
+// $('.carousel').carousel({
+//     interval: 1000,
+//     pause: 'hover'
+// })
 
 
 // $(document).ready(function() {
@@ -47,5 +73,5 @@ $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 //       interval: 1200
 //     })
 //   });
-
+//=====  End of carousel block  ======
 
