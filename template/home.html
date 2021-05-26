@@ -240,19 +240,33 @@
 
         <!-- Home Video Section -->
         <section id="home-video-section">
-            <div class="dark-overlay">
-                <div class="container"></div>
+            <div class="dark-overlay py-5">
+                <div class="container text-center py-4">
                     <div class="row">
                         <div class="col">
-                            <a href="" data-bs-video="http://www.youtube.com/embed/wDjeBNv6ip0" data-bs-toggle="modal" data-bs-target="#videoModal">
-                                <i class="far fa-play-circle fa-3x"></i>
+                            <a class="video" data-bs-video="http://www.youtube.com/embed/wDjeBNv6ip0" data-bs-toggle="modal" data-bs-target="#videoModal">
+                                <i class="far fa-play-circle fa-5x"></i>
                             </a>
+                            <h1>See What We Do</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- video modal -->
+        <div class="modal fade" id="videoModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>See What We Do</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -269,3 +283,18 @@
 <style>
     
 </style>
+
+<script>
+    function autoPlayYouTubeModal(){
+        var trigger = $("body").find('[data-bs-toggle="modal"]');
+        trigger.click(function() {
+          var theModal = $(this).data( "target" ),
+          videoSRC = $(this).attr( "data-theVideo" ), 
+          videoSRCauto = videoSRC+"?autoplay=1" ;
+          $(theModal+' iframe').attr('src', videoSRCauto);
+          $(theModal+' button.close').click(function () {
+              $(theModal+' iframe').attr('src', videoSRC);
+          });   
+        });
+      }
+</script>
