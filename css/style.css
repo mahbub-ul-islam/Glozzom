@@ -240,12 +240,16 @@ h2 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #fff;
-    
+    background-position: 0 -300px;
 }
 
-#home-video-section .row {
-    margin-right: 0 !important;
+#home-video-section a {
+    color: #fff;
 }
+
+/* #home-video-section .row {
+    margin-right: 0 !important;
+} */
 
 /*=====  End of Section comment block  ======*/
 
