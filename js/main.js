@@ -75,3 +75,33 @@ $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 //   });
 //=====  End of carousel block  ======
 
+
+
+
+//=============================================
+//=            video modal comment block          =
+//=============================================
+
+// Video Play
+$(function () {
+    // Auto play modal video
+    $(".video").click(function () {
+        var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+            $(theModal + ' iframe').attr('src', videoSRC);
+        });
+    });
+});
+
+//=====  End of Section comment block  ======
+
+
+
+// ekko-lightbox script
+    $(document).on('click', '[data-bs-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
