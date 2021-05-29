@@ -101,7 +101,7 @@ $(function () {
 
 
 // ekko-lightbox script
-    $(document).on('click', '[data-bs-toggle="lightbox"]', function(event) {
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
