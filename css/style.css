@@ -296,6 +296,7 @@ h2 {
 =============================================*/
 
 #about-img {
+    /* to move up use -0px */
     margin-top: -90px;
     border: 2px solid #fff;
 }
@@ -305,10 +306,15 @@ h2 {
 
 
 /*=============================================
-=            Section comment block            =
+=            about page icon Section comment block            =
 =============================================*/
 
-
+.bg-danger {
+    background-color: rgba(241, 106, 106, 0.959) !important;
+}
+.bg-dark {
+    background-color: rgb(95, 91, 91) !important;
+}
 
 
 /*=====  End of Section comment block  ======*/
