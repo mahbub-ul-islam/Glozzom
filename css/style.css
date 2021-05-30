@@ -50,7 +50,7 @@ html {
 } */
 p {
     font-family: KoHo;
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 19px;
 }
 h3 {
@@ -272,6 +272,61 @@ h2 {
 
 
 
+
+
+/*=============================================
+=            about page header Section comment block            =
+=============================================*/
+
+#page-header {
+    height: 200px;
+    background: url(../img/image1.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            about page about Section comment block            =
+=============================================*/
+
+
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+
+
+
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+
+
+
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+
+
+
+/*=====  End of Section comment block  ======*/
 
 
 /*=============================================
