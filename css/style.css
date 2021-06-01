@@ -278,7 +278,7 @@ h2 {
 =            about page header Section comment block            =
 =============================================*/
 
-#page-header {
+#about-page-header {
     height: 200px;
     background: url(../img/image1.jpg);
     background-position: 0 -360px;
@@ -324,7 +324,14 @@ h2 {
 =            Section comment block            =
 =============================================*/
 
-
+#service-page-header {
+    height: 200px;
+    background: url(../img/image2.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+}
 
 
 /*=====  End of Section comment block  ======*/
