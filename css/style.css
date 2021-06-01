@@ -41,6 +41,7 @@ html {
 #mainNav a {
     font-family: Kanit;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 .carousel-item h1 {
     font-family: Pattaya;
