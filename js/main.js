@@ -14,6 +14,7 @@ const router = {
     partials: {
         home: "/template/home.html",
         about: "/template/about.html",
+        services: "/template/services.html",
     },
     api: {
 
@@ -105,3 +106,17 @@ $(function () {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
+
+
+
+
+
+
+
+// about page slick carousel
+
+    // $('.slider').slick({
+    //     infinite: true,
+    //     slideToShow: 1,
+    //     slideToScroll: 1
+    // });
