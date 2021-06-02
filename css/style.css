@@ -339,8 +339,18 @@ h2 {
 
 
 /*=============================================
-=            Section comment block            =
+=            service page faq Section comment block            =
 =============================================*/
+
+#service-page-faq-section .card {
+    border-color: #444;
+    background: #333;
+}
+
+#service-page-faq-section a {
+    text-decoration: none;
+    color: #fff
+}
 
 
 
