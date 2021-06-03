@@ -83,7 +83,8 @@ h2 {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
-/* button primary (yellow to green ) */
+
+/* button warning (yellow to green ) */
 .btn-outline-warning {
     color: rgba(115, 255, 0, 0.555) !important;
     background-color: transparent !important;
@@ -93,6 +94,38 @@ h2 {
     transition: 0.5s;
     color: #fff !important;
     background-color: rgba(115, 255, 0, 0.555) !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* button secondary (red to pink ) */
+.btn-outline-secondary {
+    color: #393e46 !important;
+    background-color: transparent !important;
+    border: 2px solid #393e46 !important;
+}
+.btn-outline-secondary:hover {
+    transition: 0.5s;
+    color: #fff !important;
+    background-color: #393e46 !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* button danger (red to pink ) */
+.btn-outline-danger {
+    color: #fc46aa !important;
+    background-color: transparent !important;
+    border: 2px solid #fc46aa !important;
+}
+.btn-outline-danger:hover {
+    transition: 0.5s;
+    color: #fff !important;
+    background-color: #fc46aa !important;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -380,7 +413,15 @@ h2 {
 =            Section comment block            =
 =============================================*/
 
-
+#contact-page-header {
+    height: 200px;
+    background: url(../img/image4.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+}
 
 
 /*=====  End of Section comment block  ======*/
