@@ -16,6 +16,7 @@ const router = {
         about: "/template/about.html",
         services: "/template/services.html",
         blog: "/template/blog.html",
+        contact: "/template/contact.html",
     },
     api: {
 
