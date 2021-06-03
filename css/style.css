@@ -117,15 +117,15 @@ h2 {
 }
 
 /* button danger (red to pink ) */
-.btn-outline-danger {
-    color: #fc46aa !important;
+.btn-outline-info {
+    color: #fe7d6a !important;
     background-color: transparent !important;
-    border: 2px solid #fc46aa !important;
+    border: 2px solid #fe7d6a !important;
 }
-.btn-outline-danger:hover {
+.btn-outline-info:hover {
     transition: 0.5s;
     color: #fff !important;
-    background-color: #fc46aa !important;
+    background-color: #fe7d6a !important;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -142,7 +142,7 @@ h2 {
 /* Navbar */
 
 .bg-dark {
-    background-color: #343a40 !important;
+    background-color: #343a40  !important;
 }
 
 /* custom nav-link */
@@ -346,9 +346,9 @@ h2 {
 .bg-danger {
     background-color: rgba(241, 106, 106, 0.959) !important;
 }
-.bg-dark {
+/* .bg-dark {
     background-color: rgb(63, 61, 61) !important;
-}
+} */
 
 
 /*=====  End of Section comment block  ======*/
