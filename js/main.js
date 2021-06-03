@@ -58,6 +58,12 @@ $( '#mainNav .navbar-nav a' ).on( 'click', function () {
 	// $( '#mainNav .navbar-nav' ).find( 'a.active' ).removeClass( 'active' );
 	// $( this ).parent( 'a' ).addClass( 'active' );
 });
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+
 //=====  End of navbar block  ======
 
 
