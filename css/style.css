@@ -210,9 +210,12 @@ h2 {
 =============================================*/
 
 
+
+
 /* carousel */
 .carousel-item {
     max-height: 500px;
+    min-height: 300px;
 }
 /* .carousel-image-1 {
     background: url(../img/image1.jpg);
@@ -255,7 +258,7 @@ h2 {
 =============================================*/
 
 #home-icon-section span {
-    color: rgba(4, 138, 15, 0.336);
+    color: #3a5a7a;
 }
 
 /*=====  End of home icon section block  ======*/
