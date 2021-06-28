@@ -245,3 +245,57 @@
     });
 </script> -->
 
+<script>
+    // need to initialize owl carousel with this function first
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            //    items
+            //    Type: Number
+            //    Default: 3
+            //    The number of items you want to see on the screen.
+            items: 1,
+            
+            //    loop
+            //    Type: Boolean
+            //    Default: false
+            //    Infinity loop. Duplicate last and first items to get loop illusion.
+            loop:true,
+            
+            //    nav
+            //    Type: Boolean
+            //    Default: false
+            //    Show next/prev buttons.
+            nav:true,
+
+            //    dots
+            //    Type: Boolean
+            //    Default: true
+            //    Show dots navigation.
+            dots:true,
+
+            //    autoplay
+            //    Type: Boolean
+            //    Default: false
+            //    Autoplay.
+            autoplay:true,
+
+            //    autoplaySpeed
+            //    Type: Number/Boolean
+            //    Default: false
+            //    autoplay speed.
+            autoplaySpeed:1500,
+
+            //    smartSpeed
+            //    Type: Number
+            //    Default: 250
+            //    Speed Calculate. More info to come..
+            smartSpeed:1500,
+
+            //    autoplayHoverPause
+            //    Type: Boolean
+            //    Default: false
+            //    Pause on mouse hover.
+            autoplayHoverPause:true
+        })
+    })
+</script>
