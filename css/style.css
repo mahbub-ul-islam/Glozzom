@@ -47,8 +47,8 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
 }
-.carousel-item h1 {
-    font-family: Pattaya;
+.display-1 {
+    font-family: Pattaya; !important;
 }
 /* .carousel-item P {
     FONT-FAMILY: KoHo;
@@ -209,14 +209,142 @@ h2 {
 =            carousel comment block            =
 =============================================*/
 
+/* Owl Carousel */
 
+/* setting width and height of carousel */
+.owl-carousel {
+    width: 100%;
+    height: 92vh;
+}
 
+/* setting width and height of slide */
+.slide {
+    width: 100%;
+    height: 92vh;
+    position: relative;
+}
+
+/* dark overlay */
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* setting background image */
+.slide-1 {
+    background: url(../img/slide1.jpg);
+    /* to resize image to fit parent width and height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+.slide-2 {
+    background: url(../img/slide2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+.slide-3 {
+    background: url(../img/slide3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+.slide-4 {
+    background: url(../img/slide4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+
+/* slide content */
+/* .slide-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 0 20%;
+}
+
+.slide-content h1 {
+    font-family: "Anton", serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.slide-content p {
+    font-family: "Lato", serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.slide-content button {
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border: none;
+} */
+
+/* bottom dots */
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    /* to move it up */
+    bottom: 1%;
+}
+
+/* dots height and width */
+.owl-dots span {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* nav dots customization */
+.owl-dots button {
+    border: none !important;
+    outline: none !important;
+}
+
+/* nav arrow customization */
+.owl-nav button {
+    border: none !important;
+    outline: none !important;
+}
+
+/* nav arrow customization */
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff !important;
+    font-size: 65px !important;
+    font-weight: bolder !important;
+    background:none !important;
+}
+
+/* nav arrow position */
+.owl-prev {
+    left: 1%;
+}
+
+.owl-next {
+    right: 1%;
+}
 
 /* carousel */
-.carousel-item {
+/* .carousel-item {
     max-height: 500px;
     min-height: 300px;
-}
+} */
 /* .carousel-image-1 {
     background: url(../img/image1.jpg);
     background-size: cover;
