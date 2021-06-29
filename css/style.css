@@ -340,43 +340,7 @@ h2 {
     right: 1%;
 }
 
-/* carousel */
-/* .carousel-item {
-    max-height: 500px;
-    min-height: 300px;
-} */
-/* .carousel-image-1 {
-    background: url(../img/image1.jpg);
-    background-size: cover;
-}
-.carousel-image-2 {
-    background: url(../img/image2.jpg);
-    background-size: cover;
-}
-.carousel-image-3 {
-    background: url(../img/image3.jpg);
-    background-size: cover;
-} */
 
-/* .carousel-inner img {
-    height: 450px;
-    background-size: cover;
-} */
-
-
-/* carousel buttons */
-
-
-/* .carousel-item {
-    height: 500px;
-} */
-/* .carousel-item {
-    transition: transform .2s ease-in-out;
-    -webkit-transition: transform .2s ease-in-out;
-    -moz-transition: transform .2s ease-in-out;
-    -ms-transition: transform .2s ease-in-out;
-    -o-transition: transform .2s ease-in-out;
-} */
 
 /*=====  End of carousel comment block  ======*/
 
@@ -441,6 +405,31 @@ h2 {
 
 /*=====  End of Section comment block  ======*/
 
+
+/*=============================================
+=            home gallery Section block            =
+=============================================*/
+
+
+#home-photo-gallery a img {
+/* to slow down scaling */
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all eas;
+    -moz-transition: 0.5s all eas;
+    -ms-transition: 0.5s all eas;
+    -o-transition: 0.5s all eas;
+}
+#home-photo-gallery a img:hover {
+/* to make image larger */
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+/*=====  End of Section comment block  ======*/
 
 
 
@@ -584,7 +573,28 @@ h2 {
 =            Section comment block            =
 =============================================*/
 
+/* Small devices (landscape phones, 576px and up) */
 @include media-breakpoint-up(sm) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@include media-breakpoint-up(md) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@include media-breakpoint-up(lg) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@include media-breakpoint-up(xl) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@include media-breakpoint-up(xxl) {
     
 }
 
