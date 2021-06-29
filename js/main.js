@@ -67,21 +67,63 @@ $('.navbar-collapse a').click(function(){
 //=====  End of navbar block  ======
 
 
+
+
 //=============================================
-//=            carousel block          =
+//=           Owl carousel block          =
 //=============================================
 
-// $('.carousel').carousel({
-//     interval: 1000,
-//     pause: 'hover'
-// })
+// $(document).ready(function () {
+//     $(".owl-carousel").owlCarousel({
+//         //    items
+//         //    Type: Number
+//         //    Default: 3
+//         //    The number of items you want to see on the screen.
+//         items: 1,
+        
+//         //    loop
+//         //    Type: Boolean
+//         //    Default: false
+//         //    Infinity loop. Duplicate last and first items to get loop illusion.
+//         loop:true,
+        
+//         //    nav
+//         //    Type: Boolean
+//         //    Default: false
+//         //    Show next/prev buttons.
+//         nav:true,
 
+//         //    dots
+//         //    Type: Boolean
+//         //    Default: true
+//         //    Show dots navigation.
+//         dots:true,
 
-// $(document).ready(function() {
-//     $('.carousel').carousel({
-//         interval: 120
+//         //    autoplay
+//         //    Type: Boolean
+//         //    Default: false
+//         //    Autoplay.
+//         autoplay:true,
+
+//         //    autoplaySpeed
+//         //    Type: Number/Boolean
+//         //    Default: false
+//         //    autoplay speed.
+//         autoplaySpeed:1500,
+
+//         //    smartSpeed
+//         //    Type: Number
+//         //    Default: 250
+//         //    Speed Calculate. More info to come..
+//         smartSpeed:1500,
+
+//         //    autoplayHoverPause
+//         //    Type: Boolean
+//         //    Default: false
+//         //    Pause on mouse hover.
+//         autoplayHoverPause:true
 //     })
-// });
+// })
 
 
 //=====  End of carousel block  ======
@@ -89,33 +131,6 @@ $('.navbar-collapse a').click(function(){
 
 
 
-//=============================================
-//=            video modal comment block          =
-//=============================================
-
-// Video Play
-// $(function () {
-//     // Auto play modal video
-//     $(".video").click(function () {
-//         var theModal = $(this).data("target"),
-//             videoSRC = $(this).attr("data-video"),
-//             videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-//         $(theModal + ' iframe').attr('src', videoSRCauto);
-//         $(theModal + ' button.close').click(function () {
-//             $(theModal + ' iframe').attr('src', videoSRC);
-//         });
-//     });
-// });
-
-//=====  End of Section comment block  ======
-
-
-
-// ekko-lightbox script
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
 
 
 
@@ -123,10 +138,5 @@ $('.navbar-collapse a').click(function(){
 
 
 
-// about page slick carousel
 
-    // $('.slider').slick({
-    //     infinite: true,
-    //     slideToShow: 1,
-    //     slideToScroll: 1
-    // });
+
