@@ -95,12 +95,16 @@
 
 
     <!-- testimonial -->
+
     <section id="about-page-testimonial-section" class="py-5 text-white bg-dark">
         <div class="container text-center">
             <h2>Testimonials</h2>
             <div class="row ">
                 <div class="col">
-                    <div class="slider">
+                    <!-- slick carousel -->
+                    <!-- put all slider under a class -->
+                    <!-- here class name is slick -->
+                    <div class="slick">
                         <div>
                             <blockquote class="blockquote">
                                 <p class="mb-3">
@@ -155,7 +159,10 @@
 
 <script>
     
-    $('.slider').slick({
+//  slick carousel
+//  grab slick class like .slick
+//  bind it with slick
+    $('.slick').slick({
         infinite: true,
         slideToShow: 1,
         slideToScroll: 1
