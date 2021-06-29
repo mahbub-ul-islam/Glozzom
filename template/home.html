@@ -166,42 +166,46 @@
             <div class="container">
                 <h1 class="text-center">Photo Gallery</h1>
                 <p class="text-center">Check out our photos</p>
-                <div class="row mb-3 g-3">
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/560x560" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-                        </a>
+                    <div class="row mb-3 g-3">
+                        <div class="col-md-4">
+                            <!-- fancybox -->
+                            <!-- in the a put a class named fancybox  -->
+                            <!-- and put data-fancybox to one gallery or multiple if there is multiple gallery -->
+                            <a href="https://source.unsplash.com/random/560x560" class="fancybox" data-fancybox="gallery1" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/561x561" class="fancybox" data-fancybox="gallery1" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/562x562" class="fancybox" data-fancybox="gallery1" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/561x561" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
-                        </a>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/563x563" class="fancybox" data-fancybox="gallery1" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/564x564" class="fancybox" data-fancybox="gallery1" data-height="560" data-width="560">
+                                <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://source.unsplash.com/random/565x565" class="fancybox" data-fancybox="gallery1" data-bs-height="565" data-bs-width="565">
+                                <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/562x562" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-                <div class="row g-3">
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/563x563" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/564x564" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/random/565x565" data-bs-toggle="lightbox" data-bs-gallery="img-gallery" data-bs-height="565" data-bs-width="565">
-                            <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
+
 
 
         <!-- Newsletter -->
@@ -235,15 +239,6 @@
     </section>
 </div>
 
-
-<!-- <script type="text/javascript">
-    $(document).on('click', '[data-bs-toggle="lightbox"]', function(event) {
-        //alert("clicked"); //to test this function ran
-        event.preventDefault();
-        console.log("HERE");
-        $("#test1").ekkoLightbox();
-    });
-</script> -->
 
 <script>
     // need to initialize owl carousel with this function first
@@ -298,4 +293,8 @@
             autoplayHoverPause:true
         })
     })
+
+
+    //lightGallery(document.querySelector('.gallery'));
+    
 </script>
