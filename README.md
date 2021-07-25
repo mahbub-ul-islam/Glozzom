@@ -2,8 +2,10 @@
  Bootstrap 5 Theme
 
 
-OwlCarousel2 2.3.4
+Plugin :
+    ~ OwlCarousel2 2.3.4
 
-fancybox 3.5.7
+    ~ fancybox 3.5.7
 
-slick-carousel 1.8.1
+    ~ slick-carousel 1.8.1
+
