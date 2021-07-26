@@ -9,14 +9,14 @@
 //=            router configure block          =
 //=============================================
 const router = {
-    baseUrl: "http://127.0.0.1:5500/",
+    baseUrl: "https://mahbub-ul-islam.github.io/Glozzom/",
     backend: "",
     partials: {
-        home: "/template/home.html",
-        about: "/template/about.html",
-        services: "/template/services.html",
-        blog: "/template/blog.html",
-        contact: "/template/contact.html",
+        home: "template/home.html",
+        about: "template/about.html",
+        services: "template/services.html",
+        blog: "template/blog.html",
+        contact: "template/contact.html",
     },
     api: {
 
